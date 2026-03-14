@@ -1,0 +1,8 @@
+name: Run Shared Pipeline
+
+on:
+  push:
+
+jobs:
+  call-shared:
+    uses: luciaV1982/shared-pipelines/.github/workflows/holamundo.yaml@main
